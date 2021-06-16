@@ -1,0 +1,34 @@
+{
+	"Player": [
+		{
+			"name": "Ivan", 
+			"age": 20, 
+			"gender": "male", 
+			"Proffession": "Mage(5,5,5,10,6,5,7,112)"
+		},
+		{
+			"name": "Petar", 
+			"age": 20, 
+			"gender": "male", 
+			"Proffession": "Mage(5,5,5,10,6,5,7,112)"
+		}, 
+		{
+			"name": "Niki", 
+			"age": 20, 
+			"gender": "male", 
+			"Proffession": "Mage(5,5,5,10,6,5,7,112)"
+		}, 
+		{
+			"name": "Nikhil", 
+			"age": 20, 
+			"gender": "male",
+			"Proffession": "Mage(5,5,5,10,6,5,7,112)"
+		},
+		{
+			"name": "Kamen", 
+			"age": 15, 
+			"gender": "male", 
+			"Proffession": "Mage(5,5,5,10,6,5,7,112)"
+        	}
+    	]
+} 
