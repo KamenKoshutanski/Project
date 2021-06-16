@@ -414,6 +414,7 @@ def battle_with_orge(player, enemy):
             player.get_hit(temp)
             time.sleep(1)
 
+
             
 def battle_with_goblin(player, enemy):
     while player.is_alive() and enemy.is_alive():
@@ -450,6 +451,7 @@ def battle_with_goblin(player, enemy):
             print(enemy, "hits", player, "for", temp)
             player.get_hit(temp)
             time.sleep(1)
+
 
 
 def battle_with_dragon(player, enemy):
@@ -496,6 +498,7 @@ def battle_with_dragon(player, enemy):
                 time.sleep(1)
             
 
+
 class Account:
     
     def __init__ (self, name = 'Name', age = 20, gender = 'male',
@@ -512,6 +515,7 @@ class Account:
 
 
 h1 = Account()
+
 
 
 
@@ -534,8 +538,12 @@ def login():
                 break
 
 
+
+
 d = {"name": "Kamen", "age": 15, "gender": "male",
      "Proffession": "Mage(5,5,5,10,6,5,7,112)"}
+
+
 
 def register():
     with open("data.json", "r+") as file:
@@ -548,7 +556,10 @@ def register():
         json.dump(data, file)
 
 
+
+
 def menu():
+    
     print("Welcome to my game!!!")
     n = input("Do you want to sign in or sign up?\n")
     if n == "sign in":
@@ -587,8 +598,20 @@ def menu():
 
 
 
+
+
+menu()
+
+
+
+
+
+
+
 #testove
 import unittest
+
+
 z1  = Account("Admin", 123, "binary", Mage(8, 8, 8, 10, 10, 9, 15, 0))
 w1 = Warrior(5, 5, 5, 5, 5, 5, 5, 5)
 a1 = Archer(5, 5, 5, 5, 5, 5, 5, 5)
@@ -605,7 +628,7 @@ mb1 = Magic_Ball("Basic magic ball", 50, 20)
 
 class SimpleTest(unittest.TestCase):
 
-    
+
     def test1(self):
         self.assertTrue(z1.Proffession.is_alive())
 
@@ -692,10 +715,10 @@ class SimpleTest(unittest.TestCase):
 
     def test29(self):
         self.assertIsNotNone(battle_with_dragon)
+
     
 
 if __name__ == '__main__':
     unittest.main()
 
-print(z1.Proffession)
         
